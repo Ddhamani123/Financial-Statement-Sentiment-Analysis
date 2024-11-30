@@ -1,0 +1,13 @@
+ECHO is on.
+# Ignore everything by default
+*
+
+# Do not ignore these specific files
+!.gitignore
+!README.md
+!LICENSE
+!1.9_LM_*
+!Financial Statement Sentiment Analysis Project*
+
+# Ignore Jupyter Notebook checkpoint files
+.ipynb_checkpoints/
